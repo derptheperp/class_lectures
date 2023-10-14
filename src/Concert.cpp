@@ -13,7 +13,7 @@ Concert(): artistName{""}, maxTicket{0}
 }
 
 
-explicit Concert(string name. int max): artistName{name} , maxTicket{max}, ticketsSoldPerSection{5,0}
+explicit Concert(string name, int max): artistName{name} , maxTicket{max}, ticketsSoldPerSection{5,0}
 {
     maxTicketsPerSection.push_back(max*.10)
     maxTicketsPerSection.push_back(max*.20)

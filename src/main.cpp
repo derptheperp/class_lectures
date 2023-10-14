@@ -8,7 +8,7 @@ int main()
 
 
 
-    std::cout << testRun.getArtistName;
-    std::cout << testRun2.getArtistName;
+    std::cout << testRun.getArtistName();
+    std::cout << testRun2.getArtistName();
     return 0;
 }

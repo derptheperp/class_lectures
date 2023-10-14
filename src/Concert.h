@@ -22,13 +22,18 @@ private:
 
 public:
 
+    Concert();
+    explicit Concert(string name, int max);
+
     void setArtistName(const string &name);
     string getArtistName() const;
 
-    
+
 
 
 
 
 
 };
+
+#endif
